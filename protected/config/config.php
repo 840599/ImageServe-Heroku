@@ -13,7 +13,7 @@
 /* https://github.com/aerouk/imageserve/wiki/Configuration */
 
 define('RAW_IMAGE', true);
-define('RAW_IMAGE_LINK', false);
+define('RAW_IMAGE_LINK', true);
 define('IMAGE_EXTENSION', true);
 
 define('TWITTER_CARDS', false);
@@ -23,5 +23,5 @@ define('TWITTER_CARDS', false);
 define('IMAGESERVE_DIR', '');
 define('TWITTER_HANDLE', '@aerouk_');
 
-define('APP_NAME', 'ImageServe-Heroku');
-define('PASSKEY', getenv('PASSKEY'));
+define('APP_NAME', 'h-image');
+define('PASSKEY', getenv('copernicus'));
