@@ -12,16 +12,16 @@
 /* More information on all these values can be found on the wiki page. */
 /* https://github.com/aerouk/imageserve/wiki/Configuration */
 
-define('RAW_IMAGE', false);
-define('RAW_IMAGE_LINK', false);
+define('RAW_IMAGE', true);
+define('RAW_IMAGE_LINK', true);
 define('IMAGE_EXTENSION', false);
 
-define('TWITTER_CARDS', true);
+define('TWITTER_CARDS', false);
 
 // If you're using this, make sure to put a forward slash before.
 // E.g. "/imageserve" not "imageserve"
 define('IMAGESERVE_DIR', '');
 define('TWITTER_HANDLE', '@aerouk_');
 
-define('APP_NAME', 'application name');
-define('PASSKEY', 'password goes here');
+define('APP_NAME', 'h-image');
+define('PASSKEY', 'copernicus');
